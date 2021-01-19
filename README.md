@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
+Then all application-level JavaScript files were converted to TypeScript.
+
 ## Project Structure
 
 The default template is a monorepo created with [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
@@ -36,13 +38,13 @@ my-eth-app
     │   │   └── robots.txt
     │   └── src
     │       ├── App.css
-    │       ├── App.js
-    │       ├── App.test.js
+    │       ├── App.tsx
+    │       ├── App.test.tsx
     │       ├── ethereumLogo.svg
     │       ├── index.css
-    │       ├── index.js
-    │       ├── serviceWorker.js
-    │       └── setupTests.js
+    │       ├── index.tsx
+    │       ├── react-app-env.d.ts
+    │       └── setupTests.tsx
     └── subgraph
         ├── README.md
         ├── abis
